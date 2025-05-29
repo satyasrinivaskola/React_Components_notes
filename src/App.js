@@ -6,6 +6,8 @@ import JSX_topic from './JSX_topic.js'
 import Greet from './Function_propd.js'
 import Ranks_class from './class_props.js'
 import Welcome from './class_state.js'
+import Count from './setstate_topic.js'
+import EventHandler from './EventBind_topic.js'
 function App() {
   return (   
   
@@ -22,6 +24,8 @@ HTML elements since we can't return directly to dom */
 <Ranks_class rank="55" />
 <JSX_topic/>
 <Welcome/>
+<Count />
+<EventHandler/>
 </>
 
   );
