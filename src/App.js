@@ -8,6 +8,8 @@ import Ranks_class from './class_props.js'
 import Welcome from './class_state.js'
 import Count from './setstate_topic.js'
 import EventHandler from './EventBind_topic.js'
+import ParentComponent from './Methodasprops_parent.js'
+import User from './Conditional_Rendering_topic.js'
 function App() {
   return (   
   
@@ -26,6 +28,8 @@ HTML elements since we can't return directly to dom */
 <Welcome/>
 <Count />
 <EventHandler/>
+<ParentComponent/>
+<User />
 </>
 
   );
