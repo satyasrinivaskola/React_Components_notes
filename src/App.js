@@ -10,6 +10,9 @@ import Count from './setstate_topic.js'
 import EventHandler from './EventBind_topic.js'
 import ParentComponent from './Methodasprops_parent.js'
 import User from './Conditional_Rendering_topic.js'
+import Test_css from './CSS_styles_topic.js'
+import Test_stylesheet from './Stylesheet_topic.js'
+import List from './List_topic.js'
 function App() {
   return (   
   
@@ -30,6 +33,9 @@ HTML elements since we can't return directly to dom */
 <EventHandler/>
 <ParentComponent/>
 <User />
+<Test_css/>
+<Test_stylesheet/>
+<List/>
 </>
 
   );
