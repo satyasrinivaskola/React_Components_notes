@@ -13,6 +13,7 @@ import User from './Conditional_Rendering_topic.js'
 import Test_css from './CSS_styles_topic.js'
 import Test_stylesheet from './Stylesheet_topic.js'
 import List from './List_topic.js'
+import User_Data_Parent from './Pure_parent_topic.js'
 function App() {
   return (   
   
@@ -36,6 +37,7 @@ HTML elements since we can't return directly to dom */
 <Test_css/>
 <Test_stylesheet/>
 <List/>
+<User_Data_Parent/>
 </>
 
   );
